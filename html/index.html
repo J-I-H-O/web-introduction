@@ -1,0 +1,71 @@
+<head>
+    <meta charset="utf-8"/>
+    <title>introduction</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>자기소개</h1>
+        <ul>
+            <li>이름 : 땡이</li>
+            <li>사는 곳 : 잠실</li>
+            <li>안녕하세요 땡이에요. 만나서 반갑습니다.</li>
+        </ul>
+    </div>
+
+    <hr/>
+
+    <div>
+        <h1>인생 영화 BEST5</h1>
+        <table border="1">
+            <th>순위</th>
+            <th>제목</th>
+            <th>포스터</th>
+            <th>줄거리</th>
+            <th>바로가기</th>
+            <tr>
+                <td>1</td>
+                <td>모아나</td>
+                <td>
+                    <img src = "../images/moana.jpg" width = "50px"/>
+                </td>
+                <td>어느 날 아름다웠던 모투누이 섬이 저주에 걸리고, 투이 추장의 딸이자 바다의 선택을 받은 모아나는 섬의 저주를 풀기 위해 신의 선택을 받은 영웅 마우이를 찾아간다. 어렵게 그를 설득한 모아나는 마우이와 함께 테피티 여신의 심장을 되돌려 놓는 운명적인 모험을 시작한다.</td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=2085558&qvt=0&query=%EC%98%81%ED%99%94%20%EB%AA%A8%EC%95%84%EB%82%98">클릭</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>라푼젤</td>
+                <td>
+                    <img src = "../images/tangled.jpg" width = "50px"/>
+                </td>
+                <td>올드보이도 못 견뎠을 장장18년을 탑 안에서만 지낸 끈기만점의 소녀 라푼젤. 어느 날 자신의 탑에 침입한 왕국 최고의 대도를 한방에 때려잡는다. 그리고 그를 협박해 꿈에도 그리던 집밖으로의 모험을 단행한다. 과잉보호 모친의 영향으로 세상을 험난한 곳으로만 상상하던 라푼젤. 그런 그녀 앞에 군기 빡 쎈 왕실 경비마 맥시머스의 추격, 라이더에게 복수의 칼날을 가는 스태빙턴 형제의 위협, 라푼젤의 가짜 엄마 고델의 무서운 음모 등이 얽히고 설켜 점점 흥미진진한 사건들이 터지기 시작한다. 그러나 세상물정 깜깜한 우리의 라푼젤은 자신 앞에 펼쳐진 스릴 넘치는 세상을 맘껏 즐기는데...</td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1809109&qvt=0&query=%EC%98%81%ED%99%94%20%EB%9D%BC%ED%91%BC%EC%A0%A4">클릭</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <hr/>
+
+    <h1>방명록</h1>
+    <form id="visitForm">
+        이름: <input id="username" type="text"/>
+
+        <div>본인 취향 영화</div>
+        <div class="horizontal">
+            <label></label><input name="movie" type="checkbox"/>모아나</label>
+            <label></label><input name="movie" type="checkbox"/>라푼젤</label>
+        </div>
+    </form>
+
+    <div class="horizontal">
+        <button onclick="submit()" type="button">등록</button>
+        <button type="reset">취소</button>
+    </div>
+
+</body>
